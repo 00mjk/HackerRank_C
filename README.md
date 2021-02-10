@@ -9,4 +9,6 @@
 ## Description
 Solutions to all the easy, medium and hard challenges compiled with related learning resources for the C Challenges on HackerRank. 
 
+> My badges on HackerRank:
 
+<img src="https://github.com/Alaamimi/HackerRank_C/blob/master/Ressources/Capture.PNG">
