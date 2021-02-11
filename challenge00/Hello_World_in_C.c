@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   prob00.c                                           :+:      :+:    :+:   */
+/*   Hello_World_in_C.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/04 20:27:10 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/02/04 20:27:48 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/02/11 14:00:44 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,13 @@
 int main()
 {
 	char s[100];
-    scanf("%[^\n]%*c", &s);
-  	
-    printf("Hello, World!\n");
-    printf("%s", s);  
+
+	//Input from stdin a string to my program, using fgets.
+	fgets(s, sizeof(s), stdin);
+	//Print Hello world 
+    puts("Hello, World!");
+	//Print the string passed by the user to the program
+    printf("%s", s);
     return 0;
 }
 
